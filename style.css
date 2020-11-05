@@ -1,0 +1,159 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dfddd7 !important;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+/* logo 
+.logo{
+    float: left;
+    padding: auto;
+}
+*/
+
+/* category */
+ .main-row{
+    margin-top: 10%;
+}
+.text{
+    text-align: center;
+    font-size: 50px;
+    font-family: poppins;
+    margin-top: 30px;
+    font-weight: bold;
+    box-shadow: 7px 7px 10px rgb(70, 71, 71);
+} 
+
+
+
+
+/* navs */
+.nav{
+    background-color: rgb(181, 185, 185);
+}
+.nav .nav-pills .nav-fil>ul{
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+.nav>ul>li.nav-item{
+    display: inline-block;
+}
+ul>li>a.nav-link{
+    color: black;
+    display:block ;
+    text-decoration: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: large;
+    border: 0.5px solid rgb(143, 141, 141);
+    box-shadow: 5px 5px 5px rgb(231, 229, 229);
+}
+ul>li>a.nav-link:hover{
+    background-color: orange;
+}
+
+
+
+/* slider */
+.col-12, .col-md-9{
+    padding-left: 0 !important;
+    padding: 0 !important;
+}
+.card{
+    width: 100%;
+    padding: 4em;
+    background-color: #dfddd7;
+    color: white;
+    box-shadow: 2px 4px 8px 2px rgb(146, 145, 145), 2px 8px 10px 2 rgb(97, 96, 96)
+
+}
+
+.path{
+    color: grey;
+    margin-bottom: 1rem;
+}
+.path a{
+    color: white;
+}
+.info{
+    padding: 6vh 0vh;
+}
+#mg{
+    height: 100%;
+    width: 80%;
+    padding: 1rem;
+}
+
+.carousel-control-prev{
+    width: 0;
+    color: black;
+}
+.carousel-control-next{
+    left: 4vh;
+    right: unset;
+    color: black;
+}
+.lower{
+    margin-top: 2rem;
+}
+.lower .col{
+    padding: 0;
+}
+.lower .btn{
+    background: green;
+    border-color: yellow;
+    color: rgb(255, 255, 255);
+    padding: 1.5vh 4vh;
+    border-radius: 2px;
+}
+.lower .btn:hover{
+    color: rgb(247, 103, 7);
+}
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
+@media(max-width:768px){
+    .card{
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .info{
+        padding: 0;
+    }
+
+    img{
+        padding: 2.5rem 0;
+    }
+
+    label.radio span{
+        padding: 1vh 3vh;
+    }
+
+    label.radio input:checked+span{
+        padding: 1vh 3vh;
+    }
+    .btn{
+        padding: 1vh;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
